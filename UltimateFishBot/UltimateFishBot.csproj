@@ -168,6 +168,7 @@
     <None Include="Resources\fishIcon35x35.bmp" />
     <Content Include="FodyWeavers.xml" />
     <Content Include="icon.ico" />
+    <Content Include="Resources\fishIconVanilla29x29.bmp" />
     <Content Include="Resources\Français.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>
@@ -216,4 +217,3 @@
   </Target>
   -->
 </Project>
-

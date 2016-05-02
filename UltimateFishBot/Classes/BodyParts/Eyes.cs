@@ -244,7 +244,7 @@ namespace UltimateFishBot.Classes.BodyParts
 
             // Compare the actual icon with our fishIcon if user want it
             if (Properties.Settings.Default.CheckCursor)
-                if (!ImageCompare(Win32.GetCursorIcon(actualCursor), Properties.Resources.fishIcon35x35))
+                if (!(ImageCompare(Win32.GetCursorIcon(actualCursor), Properties.Resources.fishIcon35x35) || ImageCompare(Win32.GetCursorIcon(actualCursor), Properties.Resources.fishIconVanilla29x29)))
                     return false;
 
             // We found a fish !
